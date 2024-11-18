@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+    <head>
+        <title>bootstrap project</title>
+        <link rel="stylesheet" href="css/all.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="js/script.js"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+      </head>
+    <body>
+      <!-- div-header -->
+        <div class="header">
+          <!-- أيقونات التواصل الاجتماعي -->
+<div class="social-icons">
+  <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+              <img src="images/logo.png"  class="img-header">
+            <ul class="ul-header">
+                <a href="#" class="a-header"><li class="li-header">Home</li></a>
+                 <a href="#" class="a-header"><li class="li-header">Link</li></a>
+                 <a href="#" class="a-header"><li class="li-header blog-parent">Products
+                   <ul class="blog-post"><li class="bpost">Cappuccino</li><br>
+                    <li class="bpost">Caffee Milk</li><br>
+                    <li class="bpost">Niscaffe</li><br>
+                    <li class="bpost">Coffee</li><br>
+                    <li class="bpost">more</li> </ul>
+                 </li></a>
+                 <a href="#" class="a-header"><li class="li-header">contact</li></a>
+            </ul>
+            <form class="d-flex form-header" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button> &nbsp; 
+              <button type="button" class="btn btn-primary recommend-btn" data-bs-toggle="modal" data-bs-target="#myModal1" data-bs-toggle="tooltip" title="إضغط هنا للتوصية" style="background-color: #6f4f28; border-color: #6f4f28;" onmouseover="this.style.backgroundColor='#8b5e3c'" onmouseout="this.style.backgroundColor='#6f4f28'">
+                login
+              </button>
+            </form>
+            <!-- The Modal -->
+<div class="modal" id="myModal1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">"login"</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form id="myForm">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">login</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        </div><!-- /div-header -->
+             <div id="container1"><!--container1-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/about.png" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Coffe Shop</h5>
+              <p>Start Your Day With a Fresh Coffee</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="images/Café.jfif" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>coffee shop</h5>
+              <p>Start Your Day With a Fresh Coffee</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/COFFEE.jfif" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>coffee shop</h5>
+              <p>Start Your Day With a Fresh Coffee</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/image6.png" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>coffee shop</h5>
+              <p>Start Your Day With a Fresh Coffee</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="sec-content1">
+        <h2 class="title-sec-content1">welcome</h2>
+        <p class="p-sec-content1">
+           "Welcome to our coffee haven! Discover rich flavors and the perfect brew crafted just for you."
+          "Savor every sip and experience the warmth of our freshly brewed coffee made with passion." 
+          </p>
+          <button class="btn-sec-content1">Shop Now</button>
+      </div>
+    </div><!--/container1-->
+
+      <div id="container2"><!--container2-->
+        <div class="container-fluid " >
+           <h2 class="title-container2">Products of Our Store</h2>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Caffee Milk
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Here’s a commercial sentence that expresses "Coffee Milk":
+  
+                "Indulge in our rich and creamy Coffee Milk, the perfect blend for a delightful start to your day!"</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Niscaffe
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Coffee Milk":
+  
+                "Savor the smooth, velvety taste of our Coffee Milk, a delicious treat that elevates your coffee experience to new heights!"</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Coffee
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">"Awaken your senses with our freshly brewed Coffee, expertly crafted for a bold flavor that energizes your day!"</div>
+            </div>
+          </div>
+        </div>  
+      </div><!--/container2-->
+      
+      <div id="container3">
+        <div class="container-fluid container-fluid2">
+          <h2 class="title-container3">Recommendations</h2>
+        </div>
+        <p class="p-container3">"Your feedback matters to us! Please share your recommendations about our store." 
+          <a href="#" class="a-container3">press here</a>
+        </p>
+        <button type="button" class="btn btn-primary recommend-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-toggle="tooltip" title="إضغط هنا للتوصية" style="background-color: #6f4f28; border-color: #6f4f28;" onmouseover="this.style.backgroundColor='#8b5e3c'" onmouseout="this.style.backgroundColor='#6f4f28'">
+          recommend
+        </button>
+        
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">"We recommend pairing our Coffee with a pastry for the ultimate treat!"</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        thanks for your  Recommendations
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <label for="exampleTextarea" class="form-label">Your Message</label>
+  <textarea class="form-control" id="exampleTextarea" rows="4" placeholder="Type your message here..."></textarea>
+</div>
+      </div><!--/container3-->
+      <div id="container4"><!--container4-->
+        <div class="container-fluid container-fluid2">
+          <h2 class="title-container3">Recommendations In Arabic</h2>
+        </div>
+        <p class="p-container3">"Your feedback matters to us! Please share your recommendations about our store." 
+          <a href="#" class="a-container3">press here</a>
+        </p>
+          <button type="button" class="btn btn-primary recommend-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-toggle="tooltip" title="إضغط هنا للتوصية" style="background-color: #6f4f28; border-color: #6f4f28;" onmouseover="this.style.backgroundColor='#8b5e3c'" onmouseout="this.style.backgroundColor='#6f4f28'">
+            recommend
+          </button>
+        
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">"We recommend pairing our Coffee with a pastry for the ultimate treat!"</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        شكرا لك...
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <label for="exampleTextarea" class="form-label">توصيتك لنا</label>
+  <textarea class="form-control" id="exampleTextarea" rows="4" placeholder="Type your message here..."></textarea>
+</div>
+      </div><!--/container4-->
+      <div id="container5"><!--container5-->
+        <div class="container-fluid container-fluid2">
+          <h2 class="title-container3">Recommendations In Any Language</h2>
+        </div>
+        <p class="p-container3">"Your feedback matters to us! Please share your recommendations about our store." 
+          <a href="#" class="a-container3">press here</a>
+        </p>
+          <button type="button" class="btn btn-primary recommend-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-toggle="tooltip" title="إضغط هنا للتوصية" style="background-color: #6f4f28; border-color: #6f4f28;" onmouseover="this.style.backgroundColor='#8b5e3c'" onmouseout="this.style.backgroundColor='#6f4f28'">
+            recommend
+          </button>
+        
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">"We recommend pairing our Coffee with a pastry for the ultimate treat!"</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        thanks
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <label for="exampleTextarea" class="form-label">Your Recommend </label>
+  <textarea class="form-control" id="exampleTextarea" rows="4" placeholder="Type your message here..."></textarea>
+</div>
+       <div id="container6"><!--container6-->
+          <div class="div-container6-img"></div>
+          <div class="container-fluid container-fluid2">
+            <h2 class="title-container6">our products</h2>
+          </div>
+          <div class="container containerpic">
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m1.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m3.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m4.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m5.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m6.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m7.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Centered row with two cards -->
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m2.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                  <img src="images/m2.png" class="card-img-top" alt="Coffee image">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-containerimg"></div>
+      </div><!--/container6-->
+    </div><!--/container5-->
+    <div id="container7"><!--container7-->
+             <!-- Card 1 -->
+      <div class="content-container7"><!--content-container7-->
+        <img src="images/image1.png"class="background-image">
+           <div class="content-overlay"><!--content-overlay-->
+            <p class="contant-date">October 15, 2020</p>
+            <img class="content-overlay-img"   src="images/m1.png">
+            <p class="name-title">Eng. Mohammed Ismail</p>
+            <p class="position">Director of UI/UX</p>
+          </div><!--/content-overlay-->
+      </div><!--/content-container7-->
+      <!-- Card2 -->
+      <div class="content-container7"><!--content-container7-->
+        <img src="images/image2.png"class="background-image">
+           <div class="content-overlay"><!--content-overlay-->
+            <p class="contant-date">October 15, 2020</p>
+            <img class="content-overlay-img"   src="images/m2.png">
+            <p class="name-title">Eng. Mohammed Ismail</p>
+            <p class="position">Director of UI/UX</p>
+          </div><!--/content-overlay-->
+      </div><!--/content-container7-->
+      <!-- Card3-->
+      <div class="content-container7"><!--content-container7-->
+        <img src="images/image3.png"class="background-image">
+           <div class="content-overlay"><!--content-overlay-->
+            <p class="contant-date">October 15, 2020</p>
+            <img class="content-overlay-img"   src="images/m3.png">
+            <p class="name-title">Eng. Mohammed Ismail</p>
+            <p class="position">Director of UI/UX</p>
+          </div><!--/content-overlay-->
+      </div><!--/content-container7-->
+           --/thanks card
+    </div><!--/container7-->
+    <div id="container8"><!--container8--> 
+      <div class="container-fluid container-fluid2">
+        <h2 class="title-container6">About Us</h2>
+      </div>
+      <div class="container p-5 my-5 border content-container8"><!--content-container8--> 
+        <div class="c-content-containr8"><!--c-content-containr8--> 
+          <h2 class="title-content-container8">What Makes Our Coffee Special?</h2>
+          <div class="dateicon-content-container8"><!--dateicon-content-container8--> 
+            <i class="fa-regular fa-calendar-days"></i>
+            Sat,november9th 2024
+            <div class="lignheight-content-container8"></div>
+          </div><!--/dateicon-content-container8-->
+          <p class="p-title-content8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus optio asperiores voluptatibus id deserunt. Quas amet officia alias necessitatibus eum, maxime, illo impedit quam possimus consequuntur, ad harum voluptatum quos debitis inventore! Quas, enim sint fugiat natus alias vitae architecto perferendis modi aperiam at, nesciunt, ducimus officia temporibus deleniti nihil?</p>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-tag"></i>Podcast</button>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-clock"></i>55 mins</button>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-play"></i>play episode</button>
+        </div><!--/c-content-containr8-->
+        <div class="div-img-content-container8"><!--div-img-content-container8-->
+          <img class="img-contant-container8" src="images/Café.jfif">
+           </div><!--/div-img-content-container8-->
+          
+      </div><!--/content-container8-->
+    </div><!--/container8-->
+    <div id="container8"><!--container8--> 
+      <div class="container-fluid container-fluid2">
+        <h2 class="title-container6">About Us</h2>
+      </div>
+      <div class="container p-5 my-5 border content-container8"><!--content-container8--> 
+        <div class="c-content-containr8"><!--c-content-containr8--> 
+          <h2 class="title-content-container8">Iced Coffee</h2>
+          <div class="dateicon-content-container8"><!--dateicon-content-container8--> 
+            <i class="fa-regular fa-calendar-days"></i>
+            Sat,november9th 2024
+            <div class="lignheight-content-container8"></div>
+          </div><!--/dateicon-content-container8-->
+          <p class="p-title-content8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus optio asperiores voluptatibus id deserunt. Quas amet officia alias necessitatibus eum, maxime, illo impedit quam possimus consequuntur, ad harum voluptatum quos debitis inventore! Quas, enim sint fugiat natus alias vitae architecto perferendis modi aperiam at, nesciunt, ducimus officia temporibus deleniti nihil?</p>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-tag"></i>Podcast</button>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-clock"></i>55 mins</button>
+          <button type="button" class="btn btn-dark"><i class="fa-solid fa-play"></i>play episode</button>
+        </div><!--/c-content-containr8-->
+        <div class="div-img-content-container8"><!--div-img-content-container8-->
+          <img class="img-contant-container8" src="images/Cup of iced coffee with cream on top.jfif">
+           </div><!--/div-img-content-container8-->
+      </div><!--/content-container8-->
+    </div><!--/container8-->
+
+    <div id="container8"><!--container8--> 
+      <div class="container-fluid container-fluid2">
+        <h2 class="title-container6">About Us</h2>
+      </div>
+      <div class="container p-5 my-5 border content-container8"><!--content-container8--> 
+        <div class="c-content-containr8"><!--c-content-containr8--> 
+          <h2 class="title-content-container8">Coffee center</h2>
+          <div class="dateicon-content-container8"><!--dateicon-content-container8--> 
+            <i class="fa-regular fa-calendar-days"></i>
+            Sat,november10th 2024
+            <div class="lignheight-content-container8"></div>
+          </div><!--/dateicon-content-container8-->
+          <p class="p-title-content8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus optio asperiores voluptatibus id deserunt. Quas amet officia alias necessitatibus eum, maxime, illo impedit quam possimus consequuntur, ad harum voluptatum quos debitis inventore! Quas, enim sint fugiat natus alias vitae architecto perferendis modi aperiam at, nesciunt, ducimus officia temporibus deleniti nihil?</p>
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-tag"></i>Podcast</button>
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-clock"></i>55 mins</button>
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-play"></i>play episode</button>
+        </div><!--/c-content-containr8-->
+        <div class="div-img-content-container8"><!--div-img-content-container8-->
+          <img class="img-contant-container8" src="images/image4.png">
+           </div><!--/div-img-content-container8-->
+      </div><!--/content-container8-->
+    </div><!--/container8-->
+
+    <div id="container8"><!--container8--> 
+      <div class="container-fluid container-fluid2">
+        <h2 class="title-container6">About Us</h2>
+      </div>
+      <div class="container p-5 my-5 border content-container8"><!--content-container8--> 
+        <div class="c-content-containr8"><!--c-content-containr8--> 
+          <h2 class="title-content-container8">coffee</h2>
+          <div class="dateicon-content-container8"><!--dateicon-content-container8--> 
+            <i class="fa-regular fa-calendar-days"></i>
+            Sat,november9th 2024
+            <div class="lignheight-content-container8"></div>
+          </div><!--/dateicon-content-container8-->
+          <p class="p-title-content8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus optio asperiores voluptatibus id deserunt. Quas amet officia alias necessitatibus eum, maxime, illo impedit quam possimus consequuntur, ad harum voluptatum quos debitis inventore! Quas, enim sint fugiat natus alias vitae architecto perferendis modi aperiam at, nesciunt, ducimus officia temporibus deleniti nihil?</p>
+          <button type="button" class="btn btn-dark"><i class="fa-solid fa-tag"></i>Podcast</button>
+          <button type="button" class="btn btn-dark"><i class="fa-solid fa-clock"></i>55 mins</button>
+          <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-play"></i>play episode</button>
+        </div><!--/c-content-containr8-->
+        <div class="div-img-content-container8"><!--div-img-content-container8-->
+          <img class="img-contant-container8" src="images/b3.png">
+           </div><!--/div-img-content-container8-->
+      </div><!--/content-container8-->
+    </div><!--/container8-->
+
+    <div id="container9">
+      <div class="container my-5">
+        <div class="row justify-content-center gap-3">
+            <!-- صندوق Twitter -->
+            <div class="col-md-2 card-custom">
+                <div class="icon-bg" style="background-color: #000000;"><i class=" bi bi fa-brands fa-square-x-twitter"></i></div>
+                <h5 class="mt-3">Subscribe Now</h5>
+                <a href="#" class="text-decoration-none text-primary">Go to link</a>
+            </div>
+    
+            <!-- صندوق WhatsApp -->
+            <div class="col-md-2 card-custom">
+                <div class="icon-bg" style="background-color: #25D366;"><i class="bi bi fa-brands fa-square-whatsapp"></i></div>
+                <h5 class="mt-3">Follow</h5>
+                <a href="#" class="text-decoration-none text-primary">Go to link</a>
+            </div>
+    
+            <!-- صندوق LinkedIn -->
+            <div class="col-md-2 card-custom">
+                <div class="icon-bg" style="background-color: #0e4969;"><i class=" bi bi fa-brands fa-linkedin"></i></div>
+                <h5 class="mt-3">Like the page</h5>
+                <a href="#" class="text-decoration-none text-primary">Go to link</a>
+            </div>
+    
+            <!-- صندوق Instagram -->
+            <div class="col-md-2 card-custom">
+                <div class="icon-bg" style="background-color: #C13584;"><i class="bi bi fa-brands fa-square-instagram"></i></div>
+                <h5 class="mt-3">Watch Videos</h5>
+                <a href="#" class="text-decoration-none text-primary">Go to link</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-section">
+      <div class="container">
+        <div class="row">
+          
+            <!-- Column 1 -->
+            <div class="col-md-4">
+              <div class="lignheader-section"></div>
+                <img src="images/b1.png" alt="Logo" class="footer-logo">
+                <h5>Good Company</h5>
+                <div class="lignheader-section"></div>
+                <a href="tel:000-000-000">Tel: 000-000-000</a>
+                <a href="#">Address: EGYPT</a>
+                <a href="fax:000-000-000">Fax: 000-000-000</a>
+            </div>
+            <!-- Column 2 -->
+
+            <div class="col-md-4">
+              <div class="lignheader-section"></div>
+                <img src="images/b2.png" alt="Logo" class="footer-logo">
+                <h5>Important links</h5>
+                <div class="lignheader-section"></div>
+                <a href="#">Visit Us</a>
+                <a href="#">Take a Look</a>
+                <a href="#">Your Health is More Important</a>
+            </div>
+            <!-- Column 3 -->
+            <div class="col-md-4">
+              <div class="lignheader-section"></div>
+                <img src="images/b3.png" alt="Logo" class="footer-logo">
+                <h5>Vision</h5>
+                <div class="lignheader-section"></div>
+                <a href="#">Services for All</a>
+                <a href="#">Provide Best Services</a>
+                <a href="#">You Will Be Better Than Before</a>
+            </div>
+            <div class="lignheader-section"></div>
+        </div>
+        <div class="footer-bottom">
+            COPYRIGHT ©2024 Aya Hemdan. ALL RIGHTS
+        </div>
+    </div>
+</div>
+    </div><!--container9-->
+         
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <!-- Bootstrap JavaScript and dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+      <!-- تضمين مكتبة Bootstrap JavaScript و Popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+          function showForm() {
+    document.getElementById("myForm").style.display = "block"; // عرض النموذج
+  }
+        </script>
+        <script>
+          // تفعيل الـ Tooltip باستخدام JavaScript
+          var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+          tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+            new bootstrap.Tooltip(tooltipTriggerEl);
+          });
+        </script>
+
+    </body>
+</html>
